@@ -1,6 +1,7 @@
 call cd ang
 start ng serve -o
-cd ..
-cd nest
+start ng test
+call cd ..
+callcd nest
 start npm run start:watch
-cd ..
+call cd ..
