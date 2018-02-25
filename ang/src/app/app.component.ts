@@ -16,6 +16,7 @@ export class AppComponent {
       console.log(rsp.json());
       this.fromService = rsp.json();
 
+      
       run();
     });
   }
