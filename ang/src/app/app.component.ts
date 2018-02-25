@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Http } from '@angular/http';
+import { run } from '../../../shared/common';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,8 @@ export class AppComponent {
       console.log('got response from Nest');
       console.log(rsp.json());
       this.fromService = rsp.json();
+
+      run();
     });
   }
 
