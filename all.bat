@@ -5,3 +5,4 @@ call cd ..
 call cd nest
 start npm run start:watch
 call cd ..
+call explorer http://localhost:3000
